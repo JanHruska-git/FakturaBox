@@ -64,28 +64,3 @@ Projekt byl úspěšně otestován v reálném provozu. Pro propagaci byla vytvo
 
 ---
 
-## 🔧 Jak projekt spustit lokálně
-
-1. **Klonování repozitáře:**
-   ```bash
-   git clone https://github.com/tvoje-jmeno/fakturabox.git
-   cd fakturabox
-   ```
-
-2. **Instalace závislostí:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Nastavení prostředí (`.env`):**
-   Vytvořte soubor `.env` a vložte své API klíče:
-   ```env
-   GEMINI_API_KEY=tvoje_gemini_api_key
-   SECRET_KEY=tvoje_flask_secret_key
-   ```
-
-4. **Spuštění aplikace:**
-   ```bash
-   python main.py
-   ```
-   Aplikace poběží lokálně na `http://127.0.0.1:5000`.
